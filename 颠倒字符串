@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class 颠倒字符串{
+    public static void reverseString(String s) {
+        char[] chars = s.toCharArray();
+        char[] chars1 = new char[s.length()];
+        int i,j;
+        for(i=0,j=chars.length-1;i<chars.length;i++,j--)
+        {
+            chars1[i]=chars[j];
+        }
+        String s1 = String.valueOf(chars1);
+        System.out.println(s1) ;
+    }
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+        String s=input.next();
+        reverseString(s);
+
+    }
+}
