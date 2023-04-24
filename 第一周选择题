@@ -1,0 +1,7 @@
+
+public class 选择 {
+    public static void main(String[] args) {
+        //在此编写你的代码
+        System.out.println("1、B 2、B 3.D 4、A 5、D");
+    }
+}
